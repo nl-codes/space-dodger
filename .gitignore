@@ -1,0 +1,97 @@
+# =========================
+# OS / System Files
+# =========================
+**/.DS_Store
+**/Thumbs.db
+**/*.swp
+**/*.swo
+
+# =========================
+# Compiled / Archives
+# =========================
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/*.nar
+**/*.zip
+**/*.tar.gz
+**/*.rar
+
+# =========================
+# Build Directories (recursive)
+# =========================
+**/bin/
+**/out/
+**/target/
+**/build/
+**/dist/
+
+# =========================
+# Logs
+# =========================
+**/*.log
+**/logs/
+
+# =========================
+# Java Docs
+# =========================
+**/javadoc/
+**/javadocs/
+
+# =========================
+# Dependency / Cache
+# =========================
+**/.gradle/
+**/.mvn/timing.properties
+
+# Keep wrapper jar
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# IDE: VS Code
+# =========================
+**/.vscode/*
+!**/.vscode/settings.json
+!**/.vscode/launch.json
+!**/.vscode/tasks.json
+
+# =========================
+# IDE: IntelliJ
+# =========================
+**/.idea/
+**/*.iml
+
+# =========================
+# IDE: Eclipse
+# =========================
+**/.project
+**/.classpath
+**/.settings/
+
+# =========================
+# Environment / Secrets
+# =========================
+**/.env
+**/.env.*
+**/*.env
+
+# =========================
+# Temporary Files
+# =========================
+**/*.tmp
+**/*.bak
+**/*.cache
+
+# =========================
+# Coverage / Testing
+# =========================
+**/coverage/
+**/*.exec
+
+# =========================
+# Crash / JVM
+# =========================
+**/hs_err_pid*
+**/replay_pid*
